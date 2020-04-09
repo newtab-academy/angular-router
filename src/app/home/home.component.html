@@ -1,0 +1,11 @@
+<p>home works!</p>
+<div class="thumbnail">
+    <div class="outra">
+        <img class="photo" [src]="feed.profile_pic_url" />
+    </div>
+</div>
+
+
+
+<p>Username: {{(feed.username) | uppercase }}</p>
+<span>Followers: {{(feed.edge_followed_by.count)}}</span>
